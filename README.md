@@ -126,7 +126,7 @@ Para ir finalizando, pegue el scriptSQL.sql completo en la hoja de trabajo de My
 
 
 
-    y vaya seleccionando script por scritp y presione el rayo que está en la parte superior. Cada script empieza donde está la palabra “CREATE” o “INSERT” y finaliza donde hay un punto y coma “; “
+    Vaya seleccionando script por script y presione el rayo que está en la parte superior. Cada script empieza donde está la palabra “CREATE” o “INSERT” y finaliza donde hay un punto y coma ";"
 
     Además al lado izquierdo de cada script, la aplicación MySQL workbench le indica el largo de cada script para que lo pueda seleccionar y luego ejecutar.
 
