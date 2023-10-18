@@ -139,6 +139,6 @@ Para ir finalizando, pegue el scriptSQL.sql completo en la hoja de trabajo de My
 
     Y como paso final, utilice uno de los navegadores web recomendados para visualizar y probar el proyecto. En la barra del navegador escriba http://localhost/sistema_votacion/ y podrá verificar que cumple con todas las condiciones solicitadas. Puede volver a Mysql workbench y refrescar información para verificar que los datos son insertados en la tabla “voto” y que dos rut no pueden volver a votar porque ya están registrados. Ningún campo puede quedar en blanco, se deben escoger dos checkbox, el alias debe tener como mínimo 5 caracteres y al menos un número, la casilla email, tiene condición de correo y el rut, tiene una función que valida si el rut es valido y ficticio, si es valido podrá votar, de lo contrario, si al menos una condición no se cumple, el voto no se guardará en la base de datos.
 
-"Agradezco a Desis por la oportunidad de darme este genial desafío y prueba técnica que me mantuvo entretenido mucho tiempo. Espero poder cumplir con el perfil solicitado y con gusto espero ser escogido para trabajar con ustedes."
+"Agradezco a Desis por la oportunidad de darme este genial desafío y prueba técnica que me mantuvo bastante entretenido. Espero poder cumplir con el perfil solicitado y con gusto espero ser escogido para trabajar con ustedes."
 
 Aron
