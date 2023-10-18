@@ -25,6 +25,8 @@ Software:
         Mozilla Firefox (última versión estable)
         Google Chrome (última versión estable)
         Microsoft Edge (última versión estable)
+    Git: Version 2.42.
+        Descargar desde: https://git-scm.com/download/win
 
 Conectividad:
 
@@ -33,9 +35,11 @@ Conectividad:
 Instrucciones de Instalación:
 
     Asegúrese de tener instalado el sistema operativo Windows 10 y de contar con los requisitos de hardware mencionados.
-    Instale Visual Studio Code, MySQL Workbench y XAMPP siguiendo las instrucciones de instalación estándar para Windows 10.
-    Clone el repositorio de GitHub en su máquina local.
+    Instale Visual Studio Code, MySQL Workbench, XAMPP y Git siguiendo las instrucciones de instalación estándar para Windows 10 (idealmente siguiente a todo)
+    
     Utilice XAMPP para alojar el servidor local y la base de datos.
+    
+        Clone el repositorio de GitHub en su máquina local.
     Importe el archivo scriptSQL.sql en MySQL para configurar la base de datos.
     Abra el proyecto en Visual Studio Code y realice cualquier modificación necesaria.
     Asegúrese de tener una conexión a Internet estable para cualquier actualización o clonación necesaria.
