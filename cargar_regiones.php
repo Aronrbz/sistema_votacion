@@ -1,7 +1,7 @@
 <?php
 
 header('Content-Type: application/json; charset=utf-8');
-include '/sistema_votacion/PHP/conexion.php';
+include 'conexion.php';
 
 $query = "SELECT id_region, nombre_region FROM region";
 $result = $conn->query($query);
