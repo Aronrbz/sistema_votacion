@@ -1,7 +1,7 @@
 <?php
 
 header('Content-Type: application/json; charset=utf-8');
-include 'conexion.php';
+include '/sistema_votacion/PHP/conexion.php';
 
 $query = "SELECT id_candidato, nombre_candidato FROM candidato";
 $result = $conn->query($query);

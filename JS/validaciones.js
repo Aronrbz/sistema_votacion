@@ -40,7 +40,7 @@ function validateCheckboxSelection() { // Función para validar que al menos dos
 
 $(document).ready(function () { // Función que se ejecuta cuando el DOM está listo
     $.ajax({ // Llamada AJAX para cargar las regiones
-        url: 'cargar_regiones.php',
+        url: '/sistema_votacion/PHP/cargar_regiones.php',
         method: 'GET',
         dataType: 'json',
         success: function (data) {
@@ -58,7 +58,7 @@ $(document).ready(function () { // Función que se ejecuta cuando el DOM está l
     });
 
     $.ajax({ // Llamada AJAX para cargar los candidatos
-        url: 'cargar_candidatos.php',
+        url: '/sistema_votacion/PHP/cargar_candidatos.php',
         method: 'GET',
         dataType: 'json',
         success: function (data) {
@@ -79,7 +79,7 @@ $(document).ready(function () { // Función que se ejecuta cuando el DOM está l
         var id_region = $(this).val();
         $('#comuna').empty();
         $.ajax({
-            url: 'cargar_comunas.php',
+            url: '/sistema_votacion/PHP/cargar_comunas.php',
             method: 'GET',
             dataType: 'json',
             data: {
@@ -106,7 +106,7 @@ $(document).ready(function () { // Función que se ejecuta cuando el DOM está l
             showError("rut", "El RUT no es válido");
         } else {
             $.ajax({
-                url: 'validar_rut.php',
+                url: '/sistema_votacion/PHP/validar_rut.php',
                 method: 'POST',
                 dataType: 'json',
                 data: { rut: rut },

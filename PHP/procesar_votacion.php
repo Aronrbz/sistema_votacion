@@ -1,6 +1,6 @@
 <?php
 
-include 'conexion.php';
+include '/sistema_votacion/PHP/conexion.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombreApellido = $_POST["nombreApellido"];

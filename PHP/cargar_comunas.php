@@ -1,7 +1,7 @@
 <?php
 
 header('Content-Type: application/json; charset=utf-8');
-include 'conexion.php';
+include '/sistema_votacion/PHP/conexion.php';
 
 if (isset($_GET['id_region'])) {
     $id_region = (int)$_GET['id_region'];
